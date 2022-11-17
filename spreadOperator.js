@@ -29,3 +29,8 @@ function add(x, y) {
 let numbers = [1, 2];
 
 console.log(add(...numbers)); // 2
+
+
+
+
+
