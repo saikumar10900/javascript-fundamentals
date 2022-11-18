@@ -1,5 +1,5 @@
 // filter creates a new array by executing the given function to each value in the array.
-// it returs the element if it passes the check in the function
+// it returns the element if it passes the check in the function
 // filter function doesn't change the original array
 
 
