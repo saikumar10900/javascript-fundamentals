@@ -6,7 +6,7 @@ const userDefinedPromise = () => {
   });
 };
 
-userDefinedPromise().then((promiseResult) => {
-    console.log(promiseResult); // Successful
+userDefinedPromise().then((promiseResultFromResolve) => {
+    console.log(promiseResultFromResolve); // Successful
 });
 
