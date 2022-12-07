@@ -1,2 +1,6 @@
 let name = "SAIKUMAR";
-console.log(name.toLoweerCase());  // saikumar
+console.log(name.toLowerCase());  // saikumar
+
+
+
+
