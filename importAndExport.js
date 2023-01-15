@@ -5,3 +5,14 @@ function Component() {
 }
 
 export default Component
+
+
+## importing the same
+
+import Component from './Component'
+
+function App() {
+    return (
+        <Component />
+    )
+}
