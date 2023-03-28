@@ -1,0 +1,5 @@
+ - Event Delegation only happens because of Event bubbling concept.
+ - Bubbling will make the events goes up in the hierarchy and execute the function attached to the parent.
+ - This mechanism saves a lot of memory of the webpage.
+ - There are some events that doesn't bubble up
+ - ex: blur, focus, etc.
