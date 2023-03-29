@@ -1,3 +1,7 @@
+// Inheritance concept is completely different from other programming languges to JavaScript
+// You can simply remember like making use of one object's properties to other.
+
+
 let obj1 = {
     name: "Sai",
     city: "KDP",
