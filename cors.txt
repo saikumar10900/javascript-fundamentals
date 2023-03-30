@@ -1,0 +1,11 @@
+CORS - Cross-Origin Resource Sharing
+
+When two web applications from different domains wants to share some data like files, photos, etc CORS comes into picture.
+
+Basically, you can't share any resource with other web application from different domain if CORS is not enabled.
+
+CORS allows one web app to share its resources with other.
+
+HEADER: [Accept-Control-Allow-Origin: *]
+
+We can replace the domain names with *, we can keep the desired domain name to prevent CORS error.
