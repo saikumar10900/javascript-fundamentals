@@ -1,3 +1,8 @@
+// throttling technique will limit the rate of function calls made by the user.
+// It doesn't call the function if it is recently invoked.
+// How many times the user invokes the function but throttling makes the function invokes after certain time set to it.
+
+
 const expensive = () => {
     console.log("Expensive function called...");
 };
