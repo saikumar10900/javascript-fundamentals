@@ -1,0 +1,8 @@
+Choosing Debouncing or Throttling
+
+- It completely depends on the scenario
+- For example:
+  - search suggestions - debouncing
+  - resizing window - throttling
+  - shooting game - throttling
+  - ATM withdrawal - throttling
