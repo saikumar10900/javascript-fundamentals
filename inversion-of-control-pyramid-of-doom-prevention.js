@@ -22,3 +22,10 @@ createOrder(cart).then(function(orderId){
 }).then(function(remaniningBalance){
     return updateWallet(remaniningBalance)
 })
+
+// Arrow function notation
+
+createOrder(cart).then((orderId) => showOrderDetails(orderId)
+}).then((paymentInfo) => proceedToPayment(paymentInfo)
+}).then((remaniningBalance) => updateWallet(remaniningBalance)
+})
