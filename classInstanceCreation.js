@@ -1,5 +1,7 @@
-
 // creating class instance in JavaScript
+// class name should start with capital letter
+// we use new keyword to create a new class instance.
+
 class User{
     constructor(name, age){
         this.name = name;
