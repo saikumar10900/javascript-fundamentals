@@ -1,3 +1,7 @@
+// In promise chaining, if you put any number of then blocks after catch block, all then blocks will get executed.
+
+
+
 let sayHello = () => {
     return new Promise((resolve, reject) => reject("You're Fired!"));
 };
