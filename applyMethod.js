@@ -1,5 +1,6 @@
 // apply method usage
 // difference between call and apply is that we pass arguments in a list to the function.
+// this will be pointing out to the first arg (name)
 
 let name = {
     fs: "Saikumar",
