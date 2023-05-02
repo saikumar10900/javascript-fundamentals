@@ -1,3 +1,6 @@
+// this is a polyfill for bind method. It works the same as predefined bind method in javascript
+
+
 let name = {
     fs: "Saikumar",
     ls: "Bolisetti"
