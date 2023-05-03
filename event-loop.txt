@@ -1,0 +1,5 @@
+EVENT LOOP
+
+- Event loop does monitor the javascript callstack to gets empty.
+- As soon as it becomes empty, it pushes the tasks that are queued in microtask and callback queues.
+- Microtask queue has more priority than callback queue. So, callback has to wait until all tasks gets completed from microtask queue.
