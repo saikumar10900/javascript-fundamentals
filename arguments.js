@@ -1,4 +1,4 @@
-// arguments is the default array that collects the params received from the function call
+// arguments is the default array that collects the arguments received from the function call
 
 function sayHello(){
     console.log(arguments[0]);
