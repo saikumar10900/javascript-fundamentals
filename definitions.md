@@ -1,0 +1,19 @@
+- **Javscript**
+  - It is a synchronous single threaded language.
+- Execution Context
+  - Everything in javascript happens inside an execution context.
+  - As soon as the javascript code runs, a global execution context will be created and pushed into the call stack.
+  - A global object will also be created.
+  - There will be 2 phases in execution context
+    - Memory creation phase
+      - javascript skims through whole code and allocates memory to every variable and function in key value pair format.
+      - for variables it assigns a special keyword called 'undefined' and for function it copies the whole function code and assign to the function name.
+    - Code execution phase
+      - Here, code execution starts line by line.
+- Hoisting
+  - hoisting happens in the memory creation phase.
+  - It does allocates the memory to the varibles and moves to the top of the scope.
+  - only var declared variables and function statements will get hoisted.
+  - Other variable declaration like let, const will get hoisted in temporal deadzone where the variables can't be accessed in the runtime.
+- 
+
