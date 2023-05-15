@@ -20,4 +20,8 @@
   - in global context level "this" keyword points to the "window" object.
   - we can use the browser offering methods via this or window keyword like window.setTimeout or this.setTimeout
   - But, we can directly use any method available in javascript without using this or window keyword as JS engine put it as default.
+- undefined
+  - undefined is a special keyword that acts as a placeholder to the variable in the memory allocation phase.
+  - we can print the variable to the console even if the value is undefined, js engine doesn't throw any error.
+  - difference between undefined and not defined is, undefined is a variable that exists but doesn't have any value whereas not defined means the variable doesn't exist.
 
