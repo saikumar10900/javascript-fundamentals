@@ -24,4 +24,14 @@
   - undefined is a special keyword that acts as a placeholder to the variable in the memory allocation phase.
   - we can print the variable to the console even if the value is undefined, js engine doesn't throw any error.
   - difference between undefined and not defined is, undefined is a variable that exists but doesn't have any value whereas not defined means the variable doesn't exist.
+- Scope
+  - Scope can be defined as place where you can access certain variables, functions.
+  - Different types of Scope:
+    - Global Scope
+      - In this space, any function can access any variable, function. Accessible to everything.
+    - Module Scope
+      - Current module
+    - Function Scope
+      - All variables and functions inside a function can access the data.
+      - outside of the function, you can't any variables, function outside the function.
 
