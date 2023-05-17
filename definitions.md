@@ -34,4 +34,11 @@
     - Function Scope
       - All variables and functions inside a function can access the data.
       - outside of the function, you can't any variables, function outside the function.
+ - let and const
+   - let
+     - let keyword is introduced in ES6 and this variable declarations hoist in temporal deadzone.
+     - temporal deadzone means, the time between declaration and execution of the variable.
+   - const
+     - const keyword is introduced in ES6 and this variable declarations hoist in temporal deadzone.
+     - you can't simply declare a variable using const keyword. You should initialize it otherwise syntax error will occur.
 
