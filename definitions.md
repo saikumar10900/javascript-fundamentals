@@ -41,4 +41,8 @@
    - const
      - const keyword is introduced in ES6 and this variable declarations hoist in temporal deadzone.
      - you can't simply declare a variable using const keyword. You should initialize it otherwise syntax error will occur.
+ - Block
+   - Block is a compound statement where we can combine multiple lines of code and put it at a place where java script expects only one line of code.
+   - Ex: if(true) true - this line of code is result out to be but we see some cases where true can be decided based on more lines of code.
+   - Ex: if(true) { ... lines of code }
 
