@@ -45,4 +45,8 @@
    - Block is a compound statement where we can combine multiple lines of code and put it at a place where java script expects only one line of code.
    - Ex: if(true) true - this line of code is result out to be but we see some cases where true can be decided based on more lines of code.
    - Ex: if(true) { ... lines of code }
+ - Closure
+   - A closure can be considered as a function bundled with its parent environment.
+   - It remembers the variables, function from its parent environment even though the function returned from its context.
+   - The closure still remembers the variables, functions associated with it and can access them in other context.
 
