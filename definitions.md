@@ -49,4 +49,8 @@
    - A closure can be considered as a function bundled with its parent environment.
    - It remembers the variables, function from its parent environment even though the function returned from its context.
    - The closure still remembers the variables, functions associated with it and can access them in other context.
+ - setTimeout
+   - This is a higher order function which takes two params a callback function and certain delay and executes the callback function after the delay expires.
+   - But, setTimeout doesn't guarantee that the callback function always executes right after the delay expires.
+   - When there is x lines of code that blocks the main thread and make call stack busy for a time greater than the delay provided for the timeout function, then the              callback function will wait until the call stack gets empty, then only the callback function executes.
 
