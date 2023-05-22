@@ -53,4 +53,6 @@
    - This is a higher order function which takes two params a callback function and certain delay and executes the callback function after the delay expires.
    - But, setTimeout doesn't guarantee that the callback function always executes right after the delay expires.
    - When there is x lines of code that blocks the main thread and make call stack busy for a time greater than the delay provided for the timeout function, then the              callback function will wait until the call stack gets empty, then only the callback function executes.
-
+ - First Class functions
+   - Functions that can be passed as an argument to other functions are called First Class functions.
+   - First Class Functions aka First Class Citizens.
