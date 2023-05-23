@@ -56,3 +56,7 @@
  - First Class functions
    - Functions that can be passed as an argument to other functions are called First Class functions.
    - First Class Functions aka First Class Citizens.
+ - Anonymous functions
+   - A function without a name called as anonymous function.
+   - These functions can be passed to other functions as an argument.
+   - Ex: function(){....}
