@@ -60,3 +60,6 @@
    - A function without a name called as anonymous function.
    - These functions can be passed to other functions as an argument.
    - Ex: function(){....}
+ - Higher Order Function
+   - A function that takes another function as an argument.
+   - Ex: a(b(){}) - Here, a is the higher order function and b is the callback function.
