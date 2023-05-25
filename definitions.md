@@ -63,3 +63,7 @@
  - Higher Order Function
    - A function that takes another function as an argument.
    - Ex: a(b(){}) - Here, a is the higher order function and b is the callback function.
+ - Function expression
+   - A function that can be assigned to a variable and can be used later.
+   - Ex: let sayHello = function(){} - here, sayHello is a function expression.
+   - Function doesn't hoist at runtime, So we need to define them at the top so that they can be used later on.
