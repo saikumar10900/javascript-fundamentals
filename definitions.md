@@ -67,3 +67,8 @@
    - A function that can be assigned to a variable and can be used later.
    - Ex: let sayHello = function(){} - here, sayHello is a function expression.
    - Function doesn't hoist at runtime, So we need to define them at the top so that they can be used later on.
+ - Arrow function
+   - Arrow function is introduced in ES6 systax of JavaScript.
+   - It remebers the context from where it is being called.
+   - It looks like function expression syntax.
+   - Ex: const sayHello = () => "Hello"
