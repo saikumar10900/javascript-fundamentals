@@ -72,3 +72,7 @@
    - It remebers the context from where it is being called.
    - It looks like function expression syntax.
    - Ex: const sayHello = () => "Hello"
+ - Promise
+   - Promise is an object that represents eventual completion/failure of an asynchronous task.
+   - We can create our own promises as well.
+   - Ex: new Promise((res, rej) => {})
